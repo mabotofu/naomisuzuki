@@ -1,8 +1,11 @@
+* {
+    color: #FFF;
+}
 html {
     font-family: 'Poiret One', cursive;
 }
 body {
-
+    background-color: #46D0EB;
 }
 a {
     text-decoration: none;
@@ -31,6 +34,9 @@ h1 {
 }
 
 @media all and (max-width: 768px) {
+    body {
+        padding-left: 10px;
+    }
     .main {
         position: relative;
         top: 0;
